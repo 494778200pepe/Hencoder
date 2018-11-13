@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jcoder.hencoder">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--HenCoder_draw-->
+        <activity android:name="com.jcoder.hencoder.HenCoderAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jcoder.hencoder.draw.HenCoderDrawAct" />
+        <activity
+            android:name="com.jcoder.hencoder.draw.practicedraw1.Practice1Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.jcoder.hencoder.draw.practicedraw2.Practice2Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.jcoder.hencoder.draw.practicedraw3.Practice3Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.jcoder.hencoder.draw.practicedraw4.Practice4Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.jcoder.hencoder.draw.practicedraw5.Practice5Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <!--HenCoder_anim-->
+        <activity android:name="com.jcoder.hencoder.anim.HenCoderAnimAct" />
+        <activity
+            android:name="com.jcoder.hencoder.anim.practicedraw6.Practice6Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="com.jcoder.hencoder.anim.practicedraw7.Practice7Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <!--HenCoder_task-->
+        <activity android:name="com.jcoder.hencoder.task.HenCoderTaskAct" />
+        <activity android:name="com.jcoder.hencoder.task.Flipboard.FlipboardAct" />
+        <activity android:name="com.jcoder.hencoder.task.Like.LikeAct" />
+        <activity android:name="com.jcoder.hencoder.task.MIMovement.MIMovementAct" />
+        <activity android:name="com.jcoder.hencoder.task.Ruler.RulerAct" />
+        <activity android:name="com.jcoder.hencoder.layout.HenCoderLayoutAct" />
+        <!--HenCoder_layout-->
+        <activity
+            android:name="com.jcoder.hencoder.layout.hencoderpracticelayout1.LayoutPractice1Activity"
+            android:theme="@style/Theme.AppCompat" />
+        <!--HenCoder_test-->
+    </application>
+
+</manifest>
